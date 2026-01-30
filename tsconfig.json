@@ -1,0 +1,34 @@
+// {
+//   "compilerOptions": {
+//     "target": "ESNext",
+//     "module": "NodeNext",
+//     //"module": "es2015", //use this to import files without .ts or .js extension -- but for me error
+//     "moduleResolution": "NodeNext",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true,
+//     "resolveJsonModule": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "types": ["node", "playwright"]
+//   },
+//   "include": ["tests/**/*.ts", "playwright.config.ts", "tests-examples/demo-todo-app.spec.ts", "tests-examples/example.spec.ts"]
+// }
+
+
+//this content is same as Naveen's content
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "es2015",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "@playwright/test"]
+  },
+  "include": ["tests/**/*.ts", "playwright.config.ts", "tests-examples/demo-todo-app.spec.ts", "tests-examples/example.spec.ts"]
+}

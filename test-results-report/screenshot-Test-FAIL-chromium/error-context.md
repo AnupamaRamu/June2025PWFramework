@@ -1,0 +1,92 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e5]:
+  - heading "Welcome to orangehrm Portal" [ref=e6]
+  - region "Skip Links":
+    - link "Skip to Content":
+      - /url: "#mainContainer"
+    - link "Skip to Menu":
+      - /url: "#headerContainer"
+    - link "Skip to Footer":
+      - /url: "#footerContainer"
+  - banner [ref=e7]:
+    - generic [ref=e9]:
+      - link "OrangeHRM home" [ref=e11] [cursor=pointer]:
+        - /url: https://www.orangehrm.com
+        - img "OrangeHRM home" [ref=e12] [cursor=pointer]
+      - navigation "Main Menu" [ref=e15]:
+        - menu [ref=e16]:
+          - menuitem "Home" [ref=e17] [cursor=pointer]:
+            - menuitem "Home" [ref=e18] [cursor=pointer]
+          - menuitem "My Area" [ref=e19] [cursor=pointer]:
+            - menuitem "My Area" [ref=e20] [cursor=pointer]
+          - menuitem "Login" [ref=e21]:
+            - list [ref=e22]:
+              - menuitem "Sign In" [ref=e23] [cursor=pointer]:
+                - link "Sign In" [ref=e24] [cursor=pointer]:
+                  - /url: /portal/en/signin
+          - menuitem "user Preference" [ref=e25]:
+            - menuitem "User Preference" [ref=e27] [cursor=pointer]:
+              - img [ref=e28] [cursor=pointer]
+  - generic [ref=e33]:
+    - navigation "Page Menu" [ref=e35]:
+      - list [ref=e36]:
+        - listitem [ref=e37]:
+          - link "Home" [ref=e38] [cursor=pointer]:
+            - /url: /portal/en/home
+        - listitem [ref=e39]:
+          - text: /
+          - generic [ref=e40]: Sign In
+    - search [ref=e41]:
+      - search "Search in Help Center" [ref=e43]
+      - button "search" [ref=e44] [cursor=pointer]:
+        - img [ref=e45] [cursor=pointer]
+  - main [ref=e47]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "Already a member?" [level=1] [ref=e53]
+          - generic [ref=e54]: Sign In
+        - iframe [ref=e55]:
+          - generic [ref=f1e7]:
+            - generic [ref=f1e10]:
+              - textbox "Email Address" [ref=f1e14]
+              - generic:
+                - generic [ref=f1e17] [cursor=pointer]: Change
+                - generic:
+                  - textbox "Enter password" [ref=f1e18]
+                  - generic [ref=f1e19] [cursor=pointer]: 
+              - button "Next" [ref=f1e20] [cursor=pointer]:
+                - generic [ref=f1e21] [cursor=pointer]: Next
+            - text:   
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - img [ref=e60]
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - text: Forgot Password?
+              - link "Reset" [ref=e64] [cursor=pointer]:
+                - /url: /portal/orangehrm/PortalLoginPage.do?mode=forgetPassword&locale=en
+            - paragraph [ref=e65]: We will send a password reset link to your email address.
+        - generic [ref=e66]:
+          - img [ref=e68]
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]: Are you an Agent?
+              - link "Login here" [ref=e73] [cursor=pointer]:
+                - /url: https://support.orangehrm.com/support/orangehrm/ShowHomePage.do
+            - paragraph [ref=e74]: You will be taken to the agent interface.
+  - contentinfo [ref=e75]:
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e81]: Still can’t find an answer?
+        - generic [ref=e83]: Send us a ticket and we will get back to you.
+      - link "New Ticket" [ref=e85] [cursor=pointer]:
+        - /url: /portal/en/newticket
+        - button "Submit a ticket" [ref=e86] [cursor=pointer]
+    - generic [ref=e88]:
+      - generic [ref=e89]: Powered by
+      - link "Zoho Desk" [ref=e90] [cursor=pointer]:
+        - /url: https://zoho.com/desk
+```

@@ -1,0 +1,55 @@
+<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="2.3599590000000004">
+<testsuite name="google.spec.ts" timestamp="2026-01-29T17:52:09.956Z" hostname="chromium" tests="2" failures="1" skipped="0" time="2.273" errors="0">
+<testcase name="check page title" classname="google.spec.ts" time="1.116">
+<system-out>
+<![CDATA[Page Title: Google
+
+[[ATTACHMENT|test-results\google-check-page-title-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="check page title invalid" classname="google.spec.ts" time="1.157">
+<failure message="google.spec.ts:14:1 check page title invalid" type="FAILURE">
+<![CDATA[  [chromium] › google.spec.ts:14:1 › check page title invalid ──────────────────────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "junk"
+    Received: "Google"
+
+      19 |     console.log('Page Title: ' + title);
+      20 |
+    > 21 |      expect(title).toBe('junk');
+         |                    ^
+      22 |     
+      23 | })
+        at E:\NA\Playwright\Code\PlaywrightJune2025\tests\google.spec.ts:21:20
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\google-check-page-title-invalid-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\google-check-page-title-invalid-chromium\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\google-check-page-title-invalid-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\google-check-page-title-invalid-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[Page Title: Google
+
+[[ATTACHMENT|test-results\google-check-page-title-invalid-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\google-check-page-title-invalid-chromium\error-context.md]]
+
+[[ATTACHMENT|test-results\google-check-page-title-invalid-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
