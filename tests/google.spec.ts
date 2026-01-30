@@ -11,7 +11,7 @@ test('check page title', async ({page}) => {
     
 })
 
-test('verify check page title invalid', async ({page}) => {
+test('check page title invalid', async ({page}) => {
 
     await page.goto('https://www.google.com');
 
