@@ -8,4 +8,5 @@ node_modules/
 /playwright-html-report/
 /allure-report/
 /allure-results/
+/test-results-report/
 
